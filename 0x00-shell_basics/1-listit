@@ -1,2 +1,4 @@
-#!/bin/bash Applications     Documents  Dropbox Movies Pictures
-Desktop Downloads    Library   Music   Public
+#!/bin/bash Applications     
+Applications    Documents   Dropbox Movies Pictures
+
+Desktop Downloads   Library Music Public
