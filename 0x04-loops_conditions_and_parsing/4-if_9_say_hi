@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# displays Best School 10times on 9th Hi on a new line.
+i=10
+while [ $i -gt 0 ]
+do
+	echo "Best School"
+	i=$(( i - 1 ))
+	if [ $i -eq 1 ]
+	then
+		echo "Hi"
+	fi
+done
