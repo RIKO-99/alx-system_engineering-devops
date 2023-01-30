@@ -2,4 +2,8 @@
 # The content Bash script that displays
 # The content of the current directory In a list format
 
-
+i=$(ls)
+for num in $i
+do
+        echo "$num" | cut -d '-' -f 2
+done 
