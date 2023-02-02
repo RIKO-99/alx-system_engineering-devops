@@ -1,0 +1,1 @@
+This is a directory on Networking basics working in a linux environment. The conceptual model of open system interconnection as compared to TCP and UDP protocals. IP and MAC address in computer networks.
