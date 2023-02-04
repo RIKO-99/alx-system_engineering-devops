@@ -1,11 +1,4 @@
 #!/usr/bin/env bash
+# displays all active IPv4 IPs on the machine it is executed on
 
-# Get a list of all network interfaces
-interfaces=$(ifconfig -a | awk '/inet / {print $2}')
-
-# Loop through each interface and display its IP address
-for interface in $interfaces
-do
-  # Display the IP address
-  echo "$interface"
-done
+ifconfig | grep -Po 'inet addr:\K\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}'
