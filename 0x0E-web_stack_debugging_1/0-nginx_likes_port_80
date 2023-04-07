@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#task 0`
+#creating a symbolic link to connect config files
+sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx restart
