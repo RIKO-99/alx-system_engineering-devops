@@ -1,0 +1,2 @@
+This project focus on the debugging series as an important part of a full-stack software Engineer. In this debugging series,a broken/bugged webstacks will be given to you, the final goal is to come up with a Bash script that once executed, will bring the webstack to a working state. But before writing this Bash script, you should figure out what is going on and fix it manually.
+files will be interpreted on Ubuntu 14.04 LTS, Bash script files must be executable and  pass Shellcheck without any error.
