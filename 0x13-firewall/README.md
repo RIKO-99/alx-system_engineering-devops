@@ -1,0 +1,1 @@
+This project contain project case scenarios that covers the implementation of a firewall in a webstack. UFW, or Uncomplicated Firewall, is a simplified firewall management interface that hides the complexity of lower-level packet filtering technologies such as iptables and nftables.
