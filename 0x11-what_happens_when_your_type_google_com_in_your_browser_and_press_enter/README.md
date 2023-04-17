@@ -1,0 +1,1 @@
+This directory contains prep on Technical writing and blogging. Technical writing is a form of ommunication that professionals use to provide instruction or convey information about specific subject. In task one of this 
