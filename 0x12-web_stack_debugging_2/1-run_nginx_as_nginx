@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+#stop nginx and kill apache2 bacground process
+
 sudo service nginx stop
 sudo pkill apache2
 
